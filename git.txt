@@ -1,0 +1,64 @@
+I am going to teach you github completely in this repo
+
+There are many commands in github , we will try to see all commands and their working
+
+
+1 clone from github to vscode
+   
+   1 create a folder with same name as github repo 
+   2 open the folder 
+   3 get the path from repository 
+   --git clone (path or link from github)
+   eg git clone https://github.com/priya-32/Vs-Git.git
+
+2 from vscode to github
+
+- create a folder and file in laptop
+- and then create a repo with same name in github
+--run this command in terminal
+   1 git init command is used to initialize a new Git repository in your project directory.
+       It sets up the necessary files and structures for Git to track changes in your project.
+       (creates a git folder) acts as an intermediate
+       command :
+       git init 
+   2 git remote add origin (path or link from github)
+       command : 
+       git remote add origin https://github.com/priya-32/Vs-Git.git
+   3 Add all files to the staging area:
+       command : 
+       git add . (add files to staging area)
+   4 git commit -m "Initial commit" 
+         i) git commit:
+            This saves the changes you have staged (using git add) into the repository's history.
+        ii) -m "Initial commit":
+            The -m flag specifies a commit message in quotes.
+            In this case, "Initial commit" is a descriptive message indicating that this is the first commit of the project.
+   5 Create a main branch (or master if needed):
+      command :
+       git branch -M main
+
+   6 Push the commit to a remote repository:
+        command  :
+        git push -u origin main
+
+
+        full commands 
+        git init
+        git remote add origin https://github.com/priya-32/Github-Commands.git
+        git add .
+        git commit -m "Inital commit"
+        git branch -M main
+        git push origin main
+
+3 whenever you do changes in the vs code use this cmds to push it to the github repo
+
+    Insert -> Add -> Commit -> Push
+   
+   have to do this all for inserting ,deleting or updating
+
+   git add .
+   git commit -m ""
+   git push origin main 
+
+4 add updated changes from github to vs code
+ git pull
