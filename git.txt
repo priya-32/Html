@@ -68,4 +68,9 @@ There are many commands in github , we will try to see all commands and their wo
  eg : git pull origin main
 
  we have to be in the branch where we need the changes to happen
+
+6 To merge from one branch to another
+
+git merge branch_name
+eg git merge branch1 
  
