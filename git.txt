@@ -62,3 +62,10 @@ There are many commands in github , we will try to see all commands and their wo
 
 4 add updated changes from github to vs code
  git pull
+
+5 if i want to pull changes from another branch in github
+ git pull origin branch_name
+ eg : git pull origin main
+
+ we have to be in the branch where we need the changes to happen
+ 
